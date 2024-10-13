@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>扫雷</title>
+    <style>
+        #main{
+            width: 1000px;
+            height: 1020px;
+            margin: auto;
+        }
+        #difficulty{
+            width: 500px;
+            height: auto;
+            margin: auto;
+        }
+        #difficulty li{
+            display: inline-block;
+            margin-right: 100px;
+            background-color: green;
+        }
+        iframe{
+            width: 1050px;
+            height: 1050px;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <ul id="difficulty" type="none">
+        <li id="Easy"><a href="./Easy.html" target="content">10*10</a></li>
+        <li id="Medium"><a href="./Medium.html" target="content">20*20</a></li>
+        <li id="Hard"><a href="./Hard.html" target="content">40*40</a></li>
+    </ul>
+    <iframe name="content"></iframe>
+
+</div>
+</body>
+</html>
